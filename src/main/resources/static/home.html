@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="style.css">
+<title>Student</title>
+<style type="text/css">
+
+</style>
+</head>
+<body style="font-family: arial, sans-serif">
+	<h1  align="center">Student
+		Data</h1>
+	<div class="container">
+		<div class="heading">
+			<h2>ADD STUDENT</h2>
+		</div>
+		<div class="heading">
+			<h2>STUDENT DETAILS</h2>
+		</div>
+		<table border="1px" class="tableForm">
+			<form id="form">
+			<tbody>
+				<tr>
+					<td>Name</td>
+					<td><input type="text" id="name" name="name" required></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td><input type="text" id="gender" name="gender" required></td>
+				</tr>
+				<tr>
+					<td>Total Marks</td>
+
+					<td><input id="marks" name="marks" required></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><button type="button" id="button">Submit</button></td>
+				</tr>
+			</tbody>
+			</form>
+		</table>
+
+
+		<div class="container">
+
+			<form id="page">
+				<select class="select" name="pageNo">
+				</select>
+			</form>
+			<div class="col2">
+				<input type="text" id="filterInput" placeholder="Search">
+			</div>
+
+
+			<table class="table" id="myTable" border="2px">
+			</table>
+
+		</div>
+	</div>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="script.js">
+		
+	</script>
+</body>
+</html>
